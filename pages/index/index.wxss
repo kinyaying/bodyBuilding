@@ -1,0 +1,36 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.card-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-size {
+  width: 250rpx;
+  height: 150rpx;
+  margin: 20rpx;
+  border-radius: 10rpx;
+}
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

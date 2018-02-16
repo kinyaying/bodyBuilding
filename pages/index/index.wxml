@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="../../image/shop-sign.jpeg" background-size="cover"></image>
+    <text class="userinfo-nickname">审美</text>
+  </view>
+<view class="card-row">
+    <view class="card-cell">
+      <image class="card-size" src="../../image/img-1.jpg" background-size="cover"></image>
+      <text class="userinfo-nickname">10元</text>
+    </view>
+    <view class="card-cell">
+    <image class="card-size" src="../../image/img-2.jpg" background-size="cover"></image>
+      <text class="userinfo-nickname">20元</text>
+    </view>
+</view>
+</view>
